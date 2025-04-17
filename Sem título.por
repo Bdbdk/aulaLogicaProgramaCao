@@ -1,16 +1,15 @@
 programa {
   funcao inicio() {
-//"calculadora de salario bruto, inss, sindicato, imposto de renda e salario liquido"
 
      real ganhoporhora
      real horastrabalhadasmes
       
       escreva("por favor, escreva qunatas horas voce trabalha no mes:")
-       leia(horastrabalhadasmes)
+      leia(horastrabalhadasmes)
       escreva("agora, quanto ganha por hora:")
-       leia(ganhoporhora)
+      leia(ganhoporhora)
 
-      //"os calculos"
+
       escreva(" seu salario bruto seria o resultado a seguir:" , ganhoporhora * horastrabalhadasmes, "\"")
 
       escreva(" voce pagou:" , (ganhoporhora * horastrabalhadasmes)*0.08, " para o inss.")
