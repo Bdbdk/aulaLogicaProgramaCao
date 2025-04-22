@@ -17,8 +17,9 @@ programa {
     escreva("nota aluno:" , (primeiranota + seguntanota + terceiranota) /3, "")
      se((primeiranota + seguntanota + terceiranota) /3 >=7)
     escreva("aluno aprovado")
-     senao(escreva("\naluno reprovado, abaixo de 5") 
-    se((primeiranota + seguntanota + terceiranota) /3 <=5)
-     escreva("\naluno em mediante, entre 5 e 6.9")
+    senao se((primeiranota + seguntanota + terceiranota) /3 >=5)
+    escreva("\naluno em mediante")
+    senao(escreva("\naluno reprovado, abaixo de 5") )
+    
   }
 }
