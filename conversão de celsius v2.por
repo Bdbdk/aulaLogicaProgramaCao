@@ -6,11 +6,11 @@ programa {
    real temperatura
     
     escreva("escreva a temperatura a seguir:")
-    leia(temperatura)
+     leia(temperatura)
     se(temperatura<= 36.5)
-    escreva("temperatura nao sujeita a febre, indicador abaixo de 36.5.")
+     escreva("temperatura nao sujeita a febre, indicador abaixo de 36.5.")
     senao(escreva ("temperatura sujeita a febre, indicador acima de 36.5."))
-    escreva("\nescreva a escala em celsius para fahrenheint:")
+     escreva("\nescreva a escala em celsius para fahrenheint:")
      leia(valorcelsius)
       escreva((valorcelsius*9/5)+32)
       limpa()
