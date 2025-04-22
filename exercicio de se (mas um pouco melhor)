@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    inteiro a
+    inteiro b
+    inteiro x
+    
+    leia(a)
+    leia(b)
+     a+b
+      x=a+b
+       se(x>=10)
+        escreva("valor de x acima de 10:", x)
+  }
+}
