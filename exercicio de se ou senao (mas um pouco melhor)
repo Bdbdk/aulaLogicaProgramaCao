@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    real a
+    real b
+    real x
+    real r
+    
+    leia(a)
+    leia(b)
+    a+b
+    x=a+b
+    //no se, depois de identificar o valor de x maior a 10, ele muda para outro calculo para que este calculo de o valor de r, assim mostrando que r é maior a 10
+    se(x>=10){x+5 r=x escreva("r maior a 10:", r)}
+    //mesma coisa, mas a operação muda para x-7, mostrando que r é menor a 10
+    senao{x-7 r=x escreva("valor de r menor a 10:", r)}
+  }
+}
