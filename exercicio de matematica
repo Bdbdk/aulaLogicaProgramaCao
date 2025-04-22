@@ -5,10 +5,10 @@ programa {
    real raio
    
 
-   escreva("escreva sua altura:")
-   leia(altura)
-   escreva("valor de raio:")
-   leia(raio)
-   escreva(mat.PI*mat.potencia(raio^2)*altura)
+    escreva("escreva sua altura:")
+     leia(altura)
+    escreva("valor de raio:")
+     leia(raio)
+    escreva(mat.PI*mat.potencia(raio^2)*altura)
   }
 }
